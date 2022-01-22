@@ -1,14 +1,18 @@
 import csv
+from email import header
 import os
 
-file_to_load = os.path.join("Election_Analysis", "Resources", "election_results.csv")
+
+file_to_load = os.path.join('Election_Analysis/Resources/election_results.csv') 
 with open(file_to_load) as election_data:
     print(election_data)
 
-file_to_save = os.path.join("Election_Analysis", "analysis", "election_analysis.txt")
+election_data = open(file_to_load, 'r')
+
+file_to_save = os.path.join("Election_Analysis", "analysis", "election_analysis.txt" )
 open(file_to_save, "w")
 
-file_to_save = os.path.join("Election_Analysis", "analysis", "election_analysis.txt")
+file_to_save = os.path.join("Election_Analysis", "analysis", "election_analysis.txt" )
 
 outfile = open(file_to_save, "w")
 outfile.write("Hello World")
@@ -30,20 +34,11 @@ file_to_save = os.path.join("Election_Analysis", "analysis 1", "election_analysi
 with open(file_to_save, "w") as txt_file:
     txt_file.write("Arapahoe\nDenver\nJefferson")
 
-
-# Add our dependencies.
-import csv
-import os
-# Assign a variable to load a file from a path.
-file_to_load = os.path.join("Election_analysis", "Resources", "election_results.csv")
-
-# Assign a variable to save the file to a path.
-file_to_save = os.path.join("Election_Analysis", "Resources", "election_results.txt") 
-
-# Open the election result and read the file.
-with open (file_to_load) as election_data:
-    print(election_data)
 file_reader = csv.reader(election_data)
+
 for row in file_reader:
     print(row)
-print(election_data)
+
+# Print the header row
+headers = next(file_reader)
+print(headers)
