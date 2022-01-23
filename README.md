@@ -20,4 +20,5 @@ Here are the results fro the Election_Analysis.
 
   The winner of the Congressional election is Diana DeGette, winning with the total votes of 272,892 which is 73.8% of the total votes.
   
-  in
+ Here an image showing the final results from the visual studio code below:
+ 
