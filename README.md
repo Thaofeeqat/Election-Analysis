@@ -22,5 +22,7 @@ Here are the results fro the Election_Analysis.
   
  Here an image showing the final results from the visual studio code below:
  ![Image](https://github.com/Thaofeeqat/Election-Analysis/blob/main/Pypoll.png)
-Also a link to the election_analysis in text file:
-[Link](https://github.com/Thaofeeqat/Election-Analysis/blob/main/election_analysis.txt)
+Here is a link to the election_analysis  in text file:
+[Link](https://github.com/Thaofeeqat/Election-Analysis/blob/main/election_analysis.txt) 
+Also a link to election_analysis results in csv file:
+[Link](https://github.com/Thaofeeqat/Election-Analysis/blob/main/election_results.csv)
